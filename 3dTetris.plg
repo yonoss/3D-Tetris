@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3dTetris - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Sefu\LOCALS~1\Temp\RSP25D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/3dTetris.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\bebe\scoala\COMP6761\Proect\FIN\3dTetris_code\3dTetris.c"
+"Z:\bebe\scoala\COMP6761\Proect\FIN\3dTetris_code\objxload.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Sefu\LOCALS~1\Temp\RSP25D.tmp" 
+Creating temporary file "C:\DOCUME~1\Sefu\LOCALS~1\Temp\RSP25E.tmp" with contents
+[
+alut.lib OpenAL32.lib GLaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/3dTetris.pdb" /debug /machine:I386 /out:"Debug/3dTetris.exe" /pdbtype:sept 
+.\Debug\3dTetris.obj
+.\Debug\objxload.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Sefu\LOCALS~1\Temp\RSP25E.tmp"
+<h3>Output Window</h3>
+Compiling...
+3dTetris.c
+c:\program files\microsoft visual studio\vc98\include\al\alu.h(5) : warning C4005: 'ALAPI' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\al\al.h(34) : see previous definition of 'ALAPI'
+c:\program files\microsoft visual studio\vc98\include\al\alu.h(6) : warning C4005: 'ALAPIENTRY' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\al\al.h(35) : see previous definition of 'ALAPIENTRY'
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(36) : warning C4005: 'M_PI' : macro redefinition
+        z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\objxload.h(15) : see previous definition of 'M_PI'
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(97) : warning C4005: 'M_PI' : macro redefinition
+        z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(36) : see previous definition of 'M_PI'
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(991) : warning C4101: 'size' : unreferenced local variable
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(992) : warning C4101: 'data' : unreferenced local variable
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(993) : warning C4101: 'freq' : unreferenced local variable
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(994) : warning C4101: 'loop' : unreferenced local variable
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(990) : warning C4101: 'format' : unreferenced local variable
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(1381) : warning C4013: 'genBlNo' undefined; assuming extern returning int
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(1407) : warning C4098: 'getDataFromFile' : 'void' function returning a value
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(1422) : warning C4013: 'eof' undefined; assuming extern returning int
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4276) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4278) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4289) : warning C4028: formal parameter 1 different from declaration
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4289) : warning C4024: 'glutSpecialUpFunc' : different types for formal and actual parameter 1
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4312) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+objxload.cpp
+z:\bebe\scoala\comp6761\proect\fin\3dtetris_code\3dtetris.c(4326) : warning C4715: 'WinMain' : not all control paths return a value
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+3dTetris.exe - 0 error(s), 19 warning(s)
+</pre>
+</body>
+</html>
